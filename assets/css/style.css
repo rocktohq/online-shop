@@ -1,0 +1,130 @@
+/* Fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+body {
+    font-family: 'Poppins', sans-serif !important;
+}
+
+:root {
+    --shadow-light: 0px 0px 10px 0px rgba(0, 0, 0, .3);
+    --shadow-dark: 0px 0px 10px 0px rgba(0, 0, 0, .7);
+    --shadow-heavy: 0px 0px 10px 0px rgba(0, 0, 0, .8);
+}
+
+
+/* Reset Button & Input Fucos */
+
+a {
+    text-decoration: none;
+}
+
+.slider img {
+    height: 25em;
+    object-fit: cover;
+}
+
+.produc-list-title {
+    display: flex;
+    justify-content: space-between;
+}
+
+.ad img {
+    /* height: 12em; */
+    width: 100% !important;
+}
+
+.featured,
+.new {
+    box-shadow: var(--shadow-light);
+}
+
+.product-card {
+    transition: all .2s ease-in-out;
+    overflow: hidden;
+    position: relative;
+}
+
+.product-cart {
+    position: absolute;
+    left: 0;
+    top: 17.3em;
+    width: 100%;
+}
+
+.product-card:hover {
+    box-shadow: var(--shadow-light)
+}
+
+.product-card img {
+    height: 20em !important;
+    object-fit: fill;
+    transition: all .2s ease-in-out;
+}
+
+.product-footer {
+    border: none;
+    background-color: #fff;
+}
+
+.up-button {
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    display: none;
+    transition: all .5s ease-in-out;
+}
+
+.is-active {
+    display: block;
+    transition: all .5s ease-in-out;
+}
+
+.btn-up {
+    border: none;
+    background-color: #000;
+    color: #fff;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 10px;
+}
+
+.btn-up:hover {
+    background-color: #dc3545;
+}
+
+.btn-up i {
+    font-size: 1em;
+    font-weight: bold;
+}
+
+textarea:focus,
+textarea:active:focus,
+textarea.active:focus,
+textarea.focus,
+textarea:active.focus,
+textarea.active.focus {
+    box-shadow: none !important;
+    outline: none !important;
+}
+
+button:focus,
+button:active:focus,
+button.active:focus,
+button.focus,
+button:active.focus,
+button.active.focus {
+    box-shadow: none !important;
+    outline: none !important;
+}
+
+input:focus,
+input:active:focus,
+input.active:focus,
+input.focus,
+input:active.focus,
+input.active.focus {
+    box-shadow: none !important;
+    outline: none !important;
+}
