@@ -7,7 +7,7 @@ body {
 
 :root {
     --shadow-light: 0px 0px 10px 0px rgba(0, 0, 0, .3);
-    --shadow-dark: 0px 0px 10px 0px rgba(0, 0, 0, .7);
+    --shadow-dark: 0px 0px 10px 0px rgba(0, 0, 0, .5);
     --shadow-heavy: 0px 0px 10px 0px rgba(0, 0, 0, .8);
 }
 
@@ -47,12 +47,17 @@ a {
 .product-cart {
     position: absolute;
     left: 0;
-    top: 17.3em;
+    bottom: 0;
     width: 100%;
 }
 
+.product-cart .btn {
+    width: 50%;
+    border-radius: 0;
+}
+
 .product-card:hover {
-    box-shadow: var(--shadow-light)
+    box-shadow: var(--shadow-dark)
 }
 
 .product-card img {
@@ -83,11 +88,12 @@ a {
     border: none;
     background-color: #000;
     color: #fff;
-    border-radius: 5px;
+    border-radius: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 5px 10px;
+    height: 40px;
+    aspect-ratio: 1;
 }
 
 .btn-up:hover {
@@ -98,6 +104,16 @@ a {
     font-size: 1em;
     font-weight: bold;
 }
+
+
+/* ======== ASIDE ======== */
+
+aside .aside-nav ul {
+    list-style: none;
+}
+
+
+/* ======== RESET ======== */
 
 textarea:focus,
 textarea:active:focus,
