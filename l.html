@@ -1,0 +1,717 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+
+    <!-- START: CSS -->
+    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!-- END: CSS -->
+    <link rel="shortcut icon" href="assets/images/icons/ak.png" type="image/x-icon">
+    <title>AKClothings: Women's Shopping Paradise</title>
+</head>
+
+<body>
+    <!-- START: Header -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container">
+                <a class="navbar-brand" href="#"><span class="text-danger">AK</span>CLOTHINGS</a>
+                <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+		      <span class="fa-1"><i class="bi bi-list"></i></span>
+		    </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+		            Categories
+		          </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#">Three Piece</a></li>
+                                <li><a class="dropdown-item" href="#">Sharee</a></li>
+                                <li><a class="dropdown-item" href="#">Urna</a></li>
+                                <li><a class="dropdown-item" href="#">Burkha</a></li>
+                                <li><a class="dropdown-item" href="#">Hijab</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="categoties.html">All Categories</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="help.html">Help Desk</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex">
+                        <div class="input-group">
+                            <input type="text" class="form-control" placeholder="Search product" aria-label="Search product">
+                            <button class="btn btn-danger" type="button" id="search-product"><i class="bi bi-search"></i></button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- END: Header -->
+    <!-- START: WRAPPING -->
+    <div class="container-fluid">
+        <div class="row">
+            <!-- START:Aside -->
+            <aside class="col-sm-3 my-5">
+                <div class="aside-nav border border-primary">
+                    <div class="d-flex justify-content-center">
+                        <div class="col-12 ms-auto">
+
+                            <div class="accordion" id="asidenavbar">
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="flush-headingOne">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                                       Products
+                                    </button>
+                                    </h2>
+                                    <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#asidenavbar">
+                                        <div class="accordion-body">
+                                            <ul class="aside-nav">
+                                                <li class="nav-item">
+                                                    <a href="#">Clothings</a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a href="#">Beauty Products</a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a href="#">Serum</a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a href="#">Makeup Products</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="flush-headingTwo">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                                       Categories
+                                    </button>
+                                    </h2>
+                                    <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#asidenavbar">
+                                        <div class="accordion-body">
+                                            <ul class="aside-nav">
+                                                <li class="nav-item">
+                                                    <a href="#">Clothings</a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a href="#">Beauty Products</a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a href="#">Serum</a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a href="#">Makeup Products</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="flush-headingThree">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                                       System
+                                    </button>
+                                    </h2>
+                                    <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#asidenavbar">
+                                        <div class="accordion-body">
+                                            <ul class="aside-nav">
+                                                <li class="nav-item">
+                                                    <a href="#">Clothings</a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a href="#">Beauty Products</a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a href="#">Serum</a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a href="#">Makeup Products</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </aside>
+            <!-- END: Aside -->
+            <!-- START: Main -->
+            <main class="col-sm-9 my-5">
+                <!-- Slider -->
+                <section class="container-fluid slider mb-5">
+                    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slider 1"></button>
+                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slider 2"></button>
+                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slider 3"></button>
+                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slider 4"></button>
+                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slider 5"></button>
+                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="5" aria-label="Slider 6"></button>
+                        </div>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="./assets/images/slider/slider-1.png" class="d-block w-100" alt="...">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5>Lorem ipsum dolor sit amet.</h5>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="./assets/images/slider/slider-2.png" class="d-block w-100" alt="...">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5>Lorem ipsum dolor sit amet.</h5>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="./assets/images/slider/slider-3.png" class="d-block w-100" alt="...">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5>Lorem ipsum dolor sit amet.</h5>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="./assets/images/slider/slider-4.png" class="d-block w-100" alt="...">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5>Lorem ipsum dolor sit amet.</h5>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="./assets/images/slider/slider-5.png" class="d-block w-100" alt="...">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5>Lorem ipsum dolor sit amet.</h5>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="./assets/images/slider/slider-6.png" class="d-block w-100" alt="...">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5>Lorem ipsum dolor sit amet.</h5>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+                    </div>
+                </section>
+                <div class="container">
+                    <section>
+                        <div class="row">
+                            <div class="featured">
+                                <div class="card border-0">
+                                    <div class="produc-list-title mb-4 pt-4">
+                                        <span class="fw-bold">Featured Products</span>
+                                        <a href="#"><span class="fw-bold">View All</span></a>
+                                    </div>
+                                    <div class="row row-cols-1 row-cols-md-3 g-4 mb-5">
+                                        <div class="col-6 col-md-3" data-aos="fade-up">
+                                            <div class="card h-100 product-card">
+                                                <img src="assets/images/products/pant1.png" class="card-img-top" alt="">
+                                                <div class="product-details p-2">
+                                                    <p>Lorem ipsum dolor, sit amet nizuka pamul.</p>
+                                                    <p class="text-center"><small>Price: <span class="text-danger">999 BDT</span> | <a href="#">Women's Fashion</a></small></p>
+                                                </div>
+                                                <div class="card-footer product-footer">
+                                                    <div class="product-cart">
+                                                        <div class="d-flex justify-content-between">
+                                                            <a href="" title="Add to cart" class="btn btn-success"><i class="bi bi-cart-plus"></i></a>
+                                                            <a href="" title="Add to wishlist" class="btn btn-primary"><i class="bi bi-bag-heart"></i></a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-6 col-md-3" data-aos="fade-up">
+                                            <div class="card h-100 product-card">
+                                                <img src="assets/images/products/lips-5.png" class="card-img-top">
+                                                <div class="product-details p-2">
+                                                    <p>Lorem ipsum dolor, sit amet nizuka pamul.</p>
+                                                    <p class="text-center"><small>Price: <span class="text-danger">999 BDT</span> | <a href="#">Women's Fashion</a></small></p>
+                                                </div>
+                                                <div class="card-footer product-footer">
+                                                    <div class="product-cart">
+                                                        <div class="d-flex justify-content-between">
+                                                            <a href="" title="Add to cart" class="btn btn-success"><i class="bi bi-cart-plus"></i></a>
+                                                            <a href="" title="Add to wishlist" class="btn btn-primary"><i class="bi bi-bag-heart"></i></a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-6 col-md-3" data-aos="fade-up">
+                                            <div class="card h-100 product-card">
+                                                <img src="assets/images/products/combo-1.png" class="card-img-top">
+                                                <div class="product-details p-2">
+                                                    <p>Lorem ipsum dolor, sit amet nizuka pamul.</p>
+                                                    <p class="text-center"><small>Price: <span class="text-danger">999 BDT</span> | <a href="#">Women's Fashion</a></small></p>
+                                                </div>
+                                                <div class="card-footer product-footer">
+                                                    <div class="product-cart">
+                                                        <div class="d-flex justify-content-between">
+                                                            <a href="" title="Add to cart" class="btn btn-success"><i class="bi bi-cart-plus"></i></a>
+                                                            <a href="" title="Add to wishlist" class="btn btn-primary"><i class="bi bi-bag-heart"></i></a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-6 col-md-3" data-aos="fade-up">
+                                            <div class="card h-100 product-card">
+                                                <img src="assets/images/products/beauty-1.png" class="card-img-top">
+                                                <div class="product-details p-2">
+                                                    <p>Lorem ipsum dolor, sit amet nizuka pamul.</p>
+                                                    <p class="text-center"><small>Price: <span class="text-danger">999 BDT</span> | <a href="#">Women's Fashion</a></small></p>
+                                                </div>
+                                                <div class="card-footer product-footer">
+                                                    <div class="product-cart">
+                                                        <div class="d-flex justify-content-between">
+                                                            <a href="" title="Add to cart" class="btn btn-success"><i class="bi bi-cart-plus"></i></a>
+                                                            <a href="" title="Add to wishlist" class="btn btn-primary"><i class="bi bi-bag-heart"></i></a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-6 col-md-3" data-aos="fade-up">
+                                            <div class="card h-100 product-card">
+                                                <img src="assets/images/products/short-pant-1.png" class="card-img-top">
+                                                <div class="product-details p-2">
+                                                    <p>Lorem ipsum dolor, sit amet nizuka pamul.</p>
+                                                    <p class="text-center"><small>Price: <span class="text-danger">999 BDT</span> | <a href="#">Women's Fashion</a></small></p>
+                                                </div>
+                                                <div class="card-footer product-footer">
+                                                    <div class="product-cart">
+                                                        <div class="d-flex justify-content-between">
+                                                            <a href="" title="Add to cart" class="btn btn-success"><i class="bi bi-cart-plus"></i></a>
+                                                            <a href="" title="Add to wishlist" class="btn btn-primary"><i class="bi bi-bag-heart"></i></a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-6 col-md-3" data-aos="fade-up">
+                                            <div class="card h-100 product-card">
+                                                <img src="assets/images/products/dress3.png" class="card-img-top">
+                                                <div class="product-details p-2">
+                                                    <p>Lorem ipsum dolor, sit amet nizuka pamul.</p>
+                                                    <p class="text-center"><small>Price: <span class="text-danger">999 BDT</span> | <a href="#">Women's Fashion</a></small></p>
+                                                </div>
+                                                <div class="card-footer product-footer">
+                                                    <div class="product-cart">
+                                                        <div class="d-flex justify-content-between">
+                                                            <a href="" title="Add to cart" class="btn btn-success"><i class="bi bi-cart-plus"></i></a>
+                                                            <a href="" title="Add to wishlist" class="btn btn-primary"><i class="bi bi-bag-heart"></i></a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-6 col-md-3" data-aos="fade-up">
+                                            <div class="card h-100 product-card">
+                                                <img src="assets/images/products/dress5.png" class="card-img-top">
+                                                <div class="product-details p-2">
+                                                    <p>Lorem ipsum dolor, sit amet nizuka pamul.</p>
+                                                    <p class="text-center"><small>Price: <span class="text-danger">999 BDT</span> | <a href="#">Women's Fashion</a></small></p>
+                                                </div>
+                                                <div class="card-footer product-footer">
+                                                    <div class="product-cart">
+                                                        <div class="d-flex justify-content-between">
+                                                            <a href="" title="Add to cart" class="btn btn-success"><i class="bi bi-cart-plus"></i></a>
+                                                            <a href="" title="Add to wishlist" class="btn btn-primary"><i class="bi bi-bag-heart"></i></a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-6 col-md-3" data-aos="fade-up">
+                                            <div class="card h-100 product-card">
+                                                <img src="assets/images/products/dress4.png" class="card-img-top">
+                                                <div class="product-details p-2">
+                                                    <p>Lorem ipsum dolor, sit amet nizuka pamul.</p>
+                                                    <p class="text-center"><small>Price: <span class="text-danger">999 BDT</span> | <a href="#">Women's Fashion</a></small></p>
+                                                </div>
+                                                <div class="card-footer product-footer">
+                                                    <div class="product-cart">
+                                                        <div class="d-flex justify-content-between">
+                                                            <a href="" title="Add to cart" class="btn btn-success"><i class="bi bi-cart-plus"></i></a>
+                                                            <a href="" title="Add to wishlist" class="btn btn-primary"><i class="bi bi-bag-heart"></i></a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="my-3">
+                        <div class="row">
+                            <div class="ad">
+                                <img class="container-fluid" src="assets/images/icons/fet.png">
+                            </div>
+                        </div>
+                    </section>
+                    <section>
+                        <div class="row">
+                            <div class="new">
+                                <div class="card border-0">
+                                    <div class="produc-list-title mb-4 pt-4">
+                                        <span class="fw-bold">New Products</span>
+                                        <a href="#"><span class="fw-bold">View All</span></a>
+                                    </div>
+                                    <div class="row row-cols-1 row-cols-md-3 g-4 mb-5">
+                                        <div class="col-6 col-md-3" data-aos="fade-up">
+                                            <div class="card h-100 product-card">
+                                                <img src="assets/images/fashions/2-girls.png" class="card-img-top" alt="">
+                                                <div class="product-details p-2">
+                                                    <p>Lorem ipsum dolor, sit amet nizuka pamul.</p>
+                                                    <p class="text-center"><small>Price: <span class="text-danger">999 BDT</span> | <a href="#">Women's Fashion</a></small></p>
+                                                </div>
+                                                <div class="card-footer product-footer">
+                                                    <div class="product-cart">
+                                                        <div class="d-flex justify-content-between">
+                                                            <a href="" title="Add to cart" class="btn btn-success"><i class="bi bi-cart-plus"></i></a>
+                                                            <a href="" title="Add to wishlist" class="btn btn-primary"><i class="bi bi-bag-heart"></i></a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-6 col-md-3" data-aos="fade-up">
+                                            <div class="card h-100 product-card">
+                                                <img src="assets/images/fashions/dress-1.png" class="card-img-top">
+                                                <div class="product-details p-2">
+                                                    <p>Lorem ipsum dolor, sit amet nizuka pamul.</p>
+                                                    <p class="text-center"><small>Price: <span class="text-danger">999 BDT</span> | <a href="#">Women's Fashion</a></small></p>
+                                                </div>
+                                                <div class="card-footer product-footer">
+                                                    <div class="product-cart">
+                                                        <div class="d-flex justify-content-between">
+                                                            <a href="" title="Add to cart" class="btn btn-success"><i class="bi bi-cart-plus"></i></a>
+                                                            <a href="" title="Add to wishlist" class="btn btn-primary"><i class="bi bi-bag-heart"></i></a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-6 col-md-3" data-aos="fade-up">
+                                            <div class="card h-100 product-card">
+                                                <img src="assets/images/fashions/dress-2.png" class="card-img-top">
+                                                <div class="product-details p-2">
+                                                    <p>Lorem ipsum dolor, sit amet nizuka pamul.</p>
+                                                    <p class="text-center"><small>Price: <span class="text-danger">999 BDT</span> | <a href="#">Women's Fashion</a></small></p>
+                                                </div>
+                                                <div class="card-footer product-footer">
+                                                    <div class="product-cart">
+                                                        <div class="d-flex justify-content-between">
+                                                            <a href="" title="Add to cart" class="btn btn-success"><i class="bi bi-cart-plus"></i></a>
+                                                            <a href="" title="Add to wishlist" class="btn btn-primary"><i class="bi bi-bag-heart"></i></a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-6 col-md-3" data-aos="fade-up">
+                                            <div class="card h-100 product-card">
+                                                <img src="assets/images/fashions/dress-3.png" class="card-img-top">
+                                                <div class="product-details p-2">
+                                                    <p>Lorem ipsum dolor, sit amet nizuka pamul.</p>
+                                                    <p class="text-center"><small>Price: <span class="text-danger">999 BDT</span> | <a href="#">Women's Fashion</a></small></p>
+                                                </div>
+                                                <div class="card-footer product-footer">
+                                                    <div class="product-cart">
+                                                        <div class="d-flex justify-content-between">
+                                                            <a href="" title="Add to cart" class="btn btn-success"><i class="bi bi-cart-plus"></i></a>
+                                                            <a href="" title="Add to wishlist" class="btn btn-primary"><i class="bi bi-bag-heart"></i></a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-6 col-md-3" data-aos="fade-up">
+                                            <div class="card h-100 product-card">
+                                                <img src="assets/images/fashions/dress-4.png" class="card-img-top">
+                                                <div class="product-details p-2">
+                                                    <p>Lorem ipsum dolor, sit amet nizuka pamul.</p>
+                                                    <p class="text-center"><small>Price: <span class="text-danger">999 BDT</span> | <a href="#">Women's Fashion</a></small></p>
+                                                </div>
+                                                <div class="card-footer product-footer">
+                                                    <div class="product-cart">
+                                                        <div class="d-flex justify-content-between">
+                                                            <a href="" title="Add to cart" class="btn btn-success"><i class="bi bi-cart-plus"></i></a>
+                                                            <a href="" title="Add to wishlist" class="btn btn-primary"><i class="bi bi-bag-heart"></i></a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-6 col-md-3" data-aos="fade-up">
+                                            <div class="card h-100 product-card">
+                                                <img src="assets/images/fashions/dress-8.png" class="card-img-top">
+                                                <div class="product-details p-2">
+                                                    <p>Lorem ipsum dolor, sit amet nizuka pamul.</p>
+                                                    <p class="text-center"><small>Price: <span class="text-danger">999 BDT</span> | <a href="#">Women's Fashion</a></small></p>
+                                                </div>
+                                                <div class="card-footer product-footer">
+                                                    <div class="product-cart">
+                                                        <div class="d-flex justify-content-between">
+                                                            <a href="" title="Add to cart" class="btn btn-success"><i class="bi bi-cart-plus"></i></a>
+                                                            <a href="" title="Add to wishlist" class="btn btn-primary"><i class="bi bi-bag-heart"></i></a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-6 col-md-3" data-aos="fade-up">
+                                            <div class="card h-100 product-card">
+                                                <img src="assets/images/fashions/glass-1.png" class="card-img-top">
+                                                <div class="product-details p-2">
+                                                    <p>Lorem ipsum dolor, sit amet nizuka pamul.</p>
+                                                    <p class="text-center"><small>Price: <span class="text-danger">999 BDT</span> | <a href="#">Women's Fashion</a></small></p>
+                                                </div>
+                                                <div class="card-footer product-footer">
+                                                    <div class="product-cart">
+                                                        <div class="d-flex justify-content-between">
+                                                            <a href="" title="Add to cart" class="btn btn-success"><i class="bi bi-cart-plus"></i></a>
+                                                            <a href="" title="Add to wishlist" class="btn btn-primary"><i class="bi bi-bag-heart"></i></a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-6 col-md-3" data-aos="fade-up">
+                                            <div class="card h-100 product-card">
+                                                <img src="assets/images/fashions/jeans-1.png" class="card-img-top">
+                                                <div class="product-details p-2">
+                                                    <p>Lorem ipsum dolor, sit amet nizuka pamul.</p>
+                                                    <p class="text-center"><small>Price: <span class="text-danger">999 BDT</span> | <a href="#">Women's Fashion</a></small></p>
+                                                </div>
+                                                <div class="card-footer product-footer">
+                                                    <div class="product-cart">
+                                                        <div class="d-flex justify-content-between">
+                                                            <a href="" title="Add to cart" class="btn btn-success"><i class="bi bi-cart-plus"></i></a>
+                                                            <a href="" title="Add to wishlist" class="btn btn-primary"><i class="bi bi-bag-heart"></i></a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="mt-5">
+                        <div class="row">
+                            <div class="new">
+                                <div class="card border-0">
+                                    <div class="produc-list-title mb-4 pt-4">
+                                        <span class="fw-bold">Top Products</span>
+                                        <a href="#"><span class="fw-bold">View All</span></a>
+                                    </div>
+                                    <div class="row row-cols-1 row-cols-md-3 g-4 mb-5">
+                                        <div class="col-6 col-md-3" data-aos="fade-up">
+                                            <div class="card h-100 product-card">
+                                                <img src="assets/images/fashions/jeans-2.png" class="card-img-top" alt="">
+                                                <div class="product-details p-2">
+                                                    <p>Lorem ipsum dolor, sit amet nizuka pamul.</p>
+                                                    <p class="text-center"><small>Price: <span class="text-danger">999 BDT</span> | <a href="#">Women's Fashion</a></small></p>
+                                                </div>
+                                                <div class="card-footer product-footer">
+                                                    <div class="product-cart">
+                                                        <div class="d-flex justify-content-between">
+                                                            <a href="" title="Add to cart" class="btn btn-success"><i class="bi bi-cart-plus"></i></a>
+                                                            <a href="" title="Add to wishlist" class="btn btn-primary"><i class="bi bi-bag-heart"></i></a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-6 col-md-3" data-aos="fade-up">
+                                            <div class="card h-100 product-card">
+                                                <img src="assets/images/fashions/jeans-3.png" class="card-img-top">
+                                                <div class="product-details p-2">
+                                                    <p>Lorem ipsum dolor, sit amet nizuka pamul.</p>
+                                                    <p class="text-center"><small>Price: <span class="text-danger">999 BDT</span> | <a href="#">Women's Fashion</a></small></p>
+                                                </div>
+                                                <div class="card-footer product-footer">
+                                                    <div class="product-cart">
+                                                        <div class="d-flex justify-content-between">
+                                                            <a href="" title="Add to cart" class="btn btn-success"><i class="bi bi-cart-plus"></i></a>
+                                                            <a href="" title="Add to wishlist" class="btn btn-primary"><i class="bi bi-bag-heart"></i></a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-6 col-md-3" data-aos="fade-up">
+                                            <div class="card h-100 product-card">
+                                                <img src="assets/images/fashions/lip-stick-1.png" class="card-img-top">
+                                                <div class="product-details p-2">
+                                                    <p>Lorem ipsum dolor, sit amet nizuka pamul.</p>
+                                                    <p class="text-center"><small>Price: <span class="text-danger">999 BDT</span> | <a href="#">Women's Fashion</a></small></p>
+                                                </div>
+                                                <div class="card-footer product-footer">
+                                                    <div class="product-cart">
+                                                        <div class="d-flex justify-content-between">
+                                                            <a href="" title="Add to cart" class="btn btn-success"><i class="bi bi-cart-plus"></i></a>
+                                                            <a href="" title="Add to wishlist" class="btn btn-primary"><i class="bi bi-bag-heart"></i></a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-6 col-md-3" data-aos="fade-up">
+                                            <div class="card h-100 product-card">
+                                                <img src="assets/images/fashions/t-shirt-1.png" class="card-img-top">
+                                                <div class="product-details p-2">
+                                                    <p>Lorem ipsum dolor, sit amet nizuka pamul.</p>
+                                                    <p class="text-center"><small>Price: <span class="text-danger">999 BDT</span> | <a href="#">Women's Fashion</a></small></p>
+                                                </div>
+                                                <div class="card-footer product-footer">
+                                                    <div class="product-cart">
+                                                        <div class="d-flex justify-content-between">
+                                                            <a href="" title="Add to cart" class="btn btn-success"><i class="bi bi-cart-plus"></i></a>
+                                                            <a href="" title="Add to wishlist" class="btn btn-primary"><i class="bi bi-bag-heart"></i></a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-6 col-md-3" data-aos="fade-up">
+                                            <div class="card h-100 product-card">
+                                                <img src="assets/images/fashions/jeans-11.png" class="card-img-top">
+                                                <div class="product-details p-2">
+                                                    <p>Lorem ipsum dolor, sit amet nizuka pamul.</p>
+                                                    <p class="text-center"><small>Price: <span class="text-danger">999 BDT</span> | <a href="#">Women's Fashion</a></small></p>
+                                                </div>
+                                                <div class="card-footer product-footer">
+                                                    <div class="product-cart">
+                                                        <div class="d-flex justify-content-between">
+                                                            <a href="" title="Add to cart" class="btn btn-success"><i class="bi bi-cart-plus"></i></a>
+                                                            <a href="" title="Add to wishlist" class="btn btn-primary"><i class="bi bi-bag-heart"></i></a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-6 col-md-3" data-aos="fade-up">
+                                            <div class="card h-100 product-card">
+                                                <img src="assets/images/fashions/jeans-9.png" class="card-img-top">
+                                                <div class="product-details p-2">
+                                                    <p>Lorem ipsum dolor, sit amet nizuka pamul.</p>
+                                                    <p class="text-center"><small>Price: <span class="text-danger">999 BDT</span> | <a href="#">Women's Fashion</a></small></p>
+                                                </div>
+                                                <div class="card-footer product-footer">
+                                                    <div class="product-cart">
+                                                        <div class="d-flex justify-content-between">
+                                                            <a href="" title="Add to cart" class="btn btn-success"><i class="bi bi-cart-plus"></i></a>
+                                                            <a href="" title="Add to wishlist" class="btn btn-primary"><i class="bi bi-bag-heart"></i></a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-6 col-md-3" data-aos="fade-up">
+                                            <div class="card h-100 product-card">
+                                                <img src="assets/images/fashions/jeans-4.png" class="card-img-top">
+                                                <div class="product-details p-2">
+                                                    <p>Lorem ipsum dolor, sit amet nizuka pamul.</p>
+                                                    <p class="text-center"><small>Price: <span class="text-danger">999 BDT</span> | <a href="#">Women's Fashion</a></small></p>
+                                                </div>
+                                                <div class="card-footer product-footer">
+                                                    <div class="product-cart">
+                                                        <div class="d-flex justify-content-between">
+                                                            <a href="" title="Add to cart" class="btn btn-success"><i class="bi bi-cart-plus"></i></a>
+                                                            <a href="" title="Add to wishlist" class="btn btn-primary"><i class="bi bi-bag-heart"></i></a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-6 col-md-3" data-aos="fade-up">
+                                            <div class="card h-100 product-card">
+                                                <img src="assets/images/fashions/jeans-5.png" class="card-img-top">
+                                                <div class="product-details p-2">
+                                                    <p>Lorem ipsum dolor, sit amet nizuka pamul.</p>
+                                                    <p class="text-center"><small>Price: <span class="text-danger">999 BDT</span> | <a href="#">Women's Fashion</a></small></p>
+                                                </div>
+                                                <div class="card-footer product-footer">
+                                                    <div class="product-cart">
+                                                        <div class="d-flex justify-content-between">
+                                                            <a href="" title="Add to cart" class="btn btn-success"><i class="bi bi-cart-plus"></i></a>
+                                                            <a href="" title="Add to wishlist" class="btn btn-primary"><i class="bi bi-bag-heart"></i></a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </main>
+        </div>
+    </div>
+    <!-- END: WRAPPING -->
+    <!-- END: Main -->
+    <!-- START: Up Button -->
+    <div class="up-button">
+        <button class="btn-up" onclick="toTop()"><i class="bi bi-arrow-up"></i></button>
+    </div>
+    <!-- END: Up Button -->
+    <!-- START: Footer -->
+    <footer class="bg-dark text-light py-2">
+        <p class="text-center">&copy; <span class="text-danger">AK</span>CLOTHINGS 2022 by Ashraf LLC&trade;</p>
+    </footer>
+    <!-- START: Loader -->
+    <div id="pre-loader">
+        <div class="loader">
+        </div>
+    </div>
+    <!-- END: Loader -->
+    <!-- END: Footer -->
+    <!-- START: JavaScripts -->
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/jquery-3.6.0.min.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <!-- END: JavaScripts -->
+</body>
+
+</html>
