@@ -1,8 +1,8 @@
 // Loader
 var loader = document.getElementById("pre-loader");
 $(document).ready(function() {
-
-    setTimeout(() => { loader.classList.add("stop"); }, 700);
+    loader.classList.add("stop");
+    // setTimeout(() => { loader.classList.add("stop"); }, 700);
 });
 
 // Up Button on Scroll
